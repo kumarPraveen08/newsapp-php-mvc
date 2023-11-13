@@ -1,0 +1,103 @@
+.form-group input {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.form-group input:focus {
+  background: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.form-group input::placeholder {
+  color: rgb(241, 241, 241);
+}
+
+.login-form {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* google translate */
+select.goog-te-combo {
+  font-size: 18px;
+}
+
+select.goog-te-combo > option {
+  background: #0f0f1c;
+  color: #fff;
+}
+
+/* author box */
+.echo-author-area {
+  gap: 20px;
+}
+
+.echo-author-picture > img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* navbar mega menu heigh */
+.mega-menu-img.img-transition-scales > img {
+  max-height: 200px;
+}
+
+/* home instagram img size */
+.echo-hm2-social-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* home trending section image size */
+.echo-trending-right-site-post-img.img-transition-scale > a > img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* comment user image */
+.wrapper > .image-area {
+  margin-right: 20px;
+}
+
+.wrapper > .image-area > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* search form */
+
+.search-input-area .search-input-inner form {
+  display: flex;
+}
+
+.search-input-area .search-input-inner form > .input-div {
+  min-width: 300px !important;
+  max-width: 800px !important;
+}
+
+.search-input-area .search-input-inner form > button {
+  width: 80px !important;
+}
+
+/* pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pagination .echo-de-category-show-more-btn a {
+  padding: 12px 26px !important;
+}
+
+/* newsletter form button */
+button.btn.btn-block.btn-primary.text-lg.text-capitalize {
+  height: 40px;
+  font-size: 18px;
+}
