@@ -38,9 +38,7 @@
     <div class="mobile-menu d-block d-lg-none">
         <nav class="nav-main mainmenu-nav mt--30">
             <ul class="mainmenu" id="mobile-menu-active">
-                <li class="has-droupdown">
-                    <a href="<?=URLROOT?>" class="main">Home</a>
-                </li>
+                <li class="menu-item"><a href="<?=URLROOT?>" class="main">Home</a></li>
                 <li class="menu-item"><a class="main mobile-menu-link" href="<?=URLROOT?>/about">About</a></li>
                 <li class="has-droupdown">
                     <a href="#" class="main">Category</a>
